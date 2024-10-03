@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Photo Gallery - Guzel Karimova</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Averia Serif Libre', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 3px solid #522C2A;
+        }
+
+        nav a {
+            margin: 0 30px;
+            text-decoration: none;
+            color: #000;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #522C2A;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-title {
+            text-align: center;
+            font-size: 40px;
+            color: #522C2A;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">MY JOURNAL</a>
+        <a href="#">GALLERY</a>
+        <a href="#">CONTACT</a>
+    </nav>
+
+    <!-- Gallery Title -->
+    <h1 class="gallery-title">Photo Gallery</h1>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery">
+        <img src="C:\Users\heart\OneDrive\GeekBrains\03_AI автоматизация на своих серверах\5-6 GIT\git\journal\Gallery\DSC00642.JPG" alt="Photo 1">
+        <img src="C:\Users\heart\OneDrive\GeekBrains\03_AI автоматизация на своих серверах\5-6 GIT\git\journal\Gallery\DSC00016_обработано.JPG" alt="Photo 2">
+        <img src="C:\Users\heart\OneDrive\GeekBrains\03_AI автоматизация на своих серверах\5-6 GIT\git\journal\Gallery\PXL_20220610_0602.jpg" alt="Photo 3">
+        <img src="C:\Users\heart\OneDrive\GeekBrains\03_AI автоматизация на своих серверах\5-6 GIT\git\journal\Gallery\DSC00322.JPG" alt="Photo 4">
+        <img src="C:\Users\heart\OneDrive\GeekBrains\03_AI автоматизация на своих серверах\5-6 GIT\git\journal\Gallery\PXL_20220731_143951025.jpg" alt="Photo 5">
+        <img src="C:\Users\heart\OneDrive\GeekBrains\03_AI автоматизация на своих серверах\5-6 GIT\git\journal\Gallery\DSC00392.JPG" alt="Photo 6">
+    </section>
+
+</body>
+
+</html>
